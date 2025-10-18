@@ -34,13 +34,23 @@ header p {
 
 
 #tips {
-  margin: 20px;
-  padding: 10px;
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 900px;
+  background-color: #e8f5e9;
+  border-radius: 10px;
+  border: 1px solid #4CAF50;
 }
+#tips-list li {
+  margin: 10px 0;
+  font-size: 1.1rem;
+}
+
 
 footer {
   text-align: center;
-  padding: 10px;
-  background-color: #4CAF50;
+  padding: 15px;
+  background: linear-gradient(135deg, #4CAF50, #66BB6A);
   color: white;
+  font-size: 0.9rem;
 }
