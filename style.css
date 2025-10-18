@@ -18,6 +18,7 @@ h1 {
 }
 
 #map {
+  height: 500px; /* <- обов'язково додати */
   margin: 20px;
   border: 2px solid #4CAF50;
 }
