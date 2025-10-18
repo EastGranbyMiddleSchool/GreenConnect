@@ -9,18 +9,22 @@
 <body>
   <header>
     <h1>GreenConnect ♻️</h1>
-    <p>Find recycling points, parks, and community gardens in Connecticut and beyond!</p>
   </header>
 
-  <main>
-    <div id="map" style="height: 500px;"></div>
-    <section id="tips">
-      <h2>Eco Tips 🌱</h2>
-      <ul id="tips-list">
-        <!-- Сюди додамо поради JS-ом -->
+  <div class="container">
+    <aside id="sidebar">
+      <ul>
+        <li data-section="map">Map</li>
+        <li data-section="tips">Eco Tips</li>
       </ul>
-    </section>
-  </main>
+    </aside>
+
+    <main id="main-content">
+      <!-- Тут динамічно змінюється вміст -->
+      <div id="map" style="height: 500px;"></div>
+      <div id="info-panel"></div>
+    </main>
+  </div>
 
   <footer>
     <p>GreenConnect — Created by Sofia | GitHub: <a href="#">Link</a></p>
@@ -29,5 +33,6 @@
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
 
